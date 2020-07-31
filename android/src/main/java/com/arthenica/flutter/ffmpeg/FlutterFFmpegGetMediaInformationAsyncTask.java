@@ -53,7 +53,8 @@ public class FlutterFFmpegGetMediaInformationAsyncTask extends AsyncTask<String,
 
     @Override
     protected void onPostExecute(final MediaInformation mediaInformation) {
-        flutterFFmpegResultHandler.success(result, FlutterFFmpegPlugin.toMediaInformationMap(mediaInformation));
+        //flutterFFmpegResultHandler.success(result, FlutterFFmpegPlugin.toMediaInformationMap(mediaInformation));
     }
 
 }
+
