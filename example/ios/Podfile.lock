@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_ffmpeg/full (0.2.10):
+    - Flutter
+    - mobile-ffmpeg-full (= 4.3.1)
+  - mobile-ffmpeg-full (4.3.1)
+  - path_provider (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_ffmpeg/full (from `.symlinks/plugins/flutter_ffmpeg/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+
+SPEC REPOS:
+  trunk:
+    - mobile-ffmpeg-full
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_ffmpeg:
+    :path: ".symlinks/plugins/flutter_ffmpeg/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_ffmpeg: cf0a6941ef67e88248c998cc3e34f8acb0b4e454
+  mobile-ffmpeg-full: 0da7d44a6f9d5573daec359dafa7537f4682278f
+  path_provider: fb74bd0465e96b594bb3b5088ee4a4e7bb1f2a9d
+
+PODFILE CHECKSUM: 67dc48fdfc7437590697cf64597a0949c9173184
+
+COCOAPODS: 1.8.4
