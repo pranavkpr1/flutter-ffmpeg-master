@@ -312,7 +312,7 @@ public class FlutterFFmpegPlugin implements MethodCallHandler, EventChannel.Stre
         return statisticsMap;
     }
 
-    public static HashMap<String, Object> toMediaInformationMap(final MediaInformation mediaInformation) {
+    /*public static HashMap<String, Object> toMediaInformationMap(final MediaInformation mediaInformation) {
         final HashMap<String, Object> map = new HashMap<>();
 
         if (mediaInformation != null) {
@@ -445,5 +445,5 @@ public class FlutterFFmpegPlugin implements MethodCallHandler, EventChannel.Stre
 
         return map;
     }
-
+*/
 }
