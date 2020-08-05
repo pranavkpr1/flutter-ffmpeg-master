@@ -45,6 +45,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(include: '*.aar', dir: 'libs')
-    //implementation 'com.arthenica:mobile-ffmpeg-' + safePackageName(safeExtGet('flutterFFmpegPackage', 'https')) + ':' + safePackageVersion(safeExtGet('flutterFFmpegPackage', 'https'), '4.3.1', '4.3.1')
+    //implementation fileTree(include: '*.aar', dir: 'libs')
+    implementation 'com.arthenica:mobile-ffmpeg-' + safePackageName(safeExtGet('flutterFFmpegPackage', 'https')) + ':' + safePackageVersion(safeExtGet('flutterFFmpegPackage', 'https'), '4.4', '4.4')
 }
